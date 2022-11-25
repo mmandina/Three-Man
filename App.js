@@ -36,8 +36,9 @@ const App = () => {
       if (dice1 + dice2 === 3 || dice1 === 3 || dice2 === 3) {
         setText("Yikes! You're the threeman!");
         setAuxText('Pass the dice to the left to start the round!');
+        setThreeman(true);
+        return;
       }
-      setThreeman(true);
       return;
     }
     if (dice1 === dice2) {
