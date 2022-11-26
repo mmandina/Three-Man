@@ -1,5 +1,5 @@
 import {StatusBar} from 'expo-status-bar';
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import Dice1 from './assets/images/dice1.png';
 import Dice2 from './assets/images/dice2.png';
